@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Raleway", sans-serif;
+}
+
+ul li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 50px;
+   margin: 20px 0;
+   align-items: center;
+}
+
+.header-links ul {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 50px;
+}
+
+.header-links ul li a {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 16.44px;
+   text-transform: capitalize;
+   display: flex;
+   align-items: flex-end;
+   color: #373737;
+}
+
+.stories {
+   color: #022CE1 !important;
+}
+
+.signin {
+   background: #022CE1;
+   border: 2px solid #022CE1;
+   box-sizing: border-box;
+   border-radius: 5px;
+   padding: 10px 30px;
+   color: #FFFFFF !important;
+}
+
+header .fa{
+   display: none;
+} 
+
+/* Hero */
+.hero {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   gap: 10px;
+   background: #F4F8FC;
+}
+
+.hero-contents {
+   padding: 0px 40px;
+   margin: auto;
+   /* margin-left: 30px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.hero-contents h1 {
+   font-weight: 600;
+   font-size: 40px;
+   text-transform: capitalize;
+   color: #000000;
+   margin-top: 20px;
+   text-align: justify;
+   width: 285px;
+}
+
+.hero-contents p {
+   font-weight: 400;
+   font-size: 18px;
+   color: #022CE1;
+   margin-top: 20px;
+   text-align: justify;
+   width: 385px;
+}
+
+.btn {
+   background: #022CE1;
+   border: 1px solid #022CE1;
+   box-sizing: border-box;
+   border-radius: 5px;
+   padding: 11px 50px;
+   font-size: 14px;
+   color: #ffffff !important;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+.hero-image {
+   margin-right: 3%;
+   padding: 0px;
+   justify-self: right;
+}
+
+/* Testimonies */
+.container {
+   background: #02E1B80D;
+   display: flex;
+   flex-direction: row;
+   /* justify-content: space-evenly; */
+   justify-content: center;
+   /* gap: 10rem; */
+   align-items: center;
+   /* padding: 10% 50px; */
+   padding: 3rem;
+}
+
+.left {
+   margin-right: 25px;
+   padding: 10px;
+}
+
+.left img {
+   /* width: 310px; */
+}
+
+.right {
+   padding: 55px;
+}
+
+.right h2 {
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 37.57px;
+   color: #022CE1;
+   margin-bottom: 15px;
+}
+
+.right p { 
+   color: #373737;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.13px;
+   text-align: justify;
+   width: 578px;
+} 
+
+#left {
+   padding: 55px;
+}
+
+#left h2 {
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 37.57px;
+   color: #022CE1;
+   margin-bottom: 15px;
+}
+
+#left p {
+   color: #373737;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.13px;
+   text-align: justify;
+   width: 578px;
+}
+
+#right {
+   margin-left: 25px;
+   padding: 10px; 
+}
+
+#right img {
+   /* width: 310px; */
+}
+
+
+.container2{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   background: #02E1B80D;
+}
+
+.read {
+   padding: 10px 15%;
+}
+
+.read a h3 {
+   font-size: 18px;
+   font-weight: 300;
+   color: #022CE1;
+   text-align: justify;
+}
+
+
+
+/* Footer */
+footer {
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: row; */
+   justify-content: space-between;
+   background: #022CE1;
+   padding: 20px; 
+   margin: auto;  
+}
+
+footer .col {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 15px;
+   padding: 0 50px;
+   
+}
+
+footer h4 {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 23.48px;
+   color: #FFFFFF;
+   padding-bottom: 20px;
+}
+
+footer a {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19px;
+   color: #dad7d7;
+   text-decoration: none;
+   margin-bottom: 13px;
+}
+
+footer .copyright {
+   width: 100%;
+   align-items: flex-start;
+   font-size: 14px;
+   font-weight: 300;
+   color: #dad7d7;
+   line-height: 16px;
+   margin-top: 15px;
+   padding-left: 3rem;
+}
+
+/* Media Query */
+@media (max-width: 700px) {
+   .header-links ul li a {
+      display: block;
+   }
+}
+
